@@ -20,7 +20,7 @@ function nowServing(deliLine){
 
 function currentLine(line){
           let i=0; 
-          while (i+(1) < line.length)
+          while (i < line.length)
             {
             line.push(` `+[i+1]+`. `  + line[i]);{i++;
               
